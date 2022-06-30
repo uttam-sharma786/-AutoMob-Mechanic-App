@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset = "UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Content-Security-Policy" content="style-src 'self'" />
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./css/home.css"/>
+    <script src="js/main.js"></script>
+    <title> login |AutoMob-Mechanic</title>
+    
+</head>
+<body>
+<header>
+<br>
+    <a href="home.html">AutoMob-Mechanic</a>
+</br>
+<nav>
+    <a href="home.html">Home</a>
+   
+    <a href="login.html" class="active">Login</a>
+ 
+    <a href="mailto: contact@automob.co.in">contact@automob.co.in</a>
+
+</nav>
+
+</header>
+<main>
+    <h2>Login</h2>
+    <form method="GET" action="http://127.0.0.1:5500/AutoMob-Mechanic/login.html">
+        <div>
+            <label for="uname">Username:</label>
+            <input type="text" id="uname" required><br>
+        </div>
+        <br>
+        <div>
+            <label for ="password">Password</label>
+            <input type="password" id="pwd" required>
+        </div>
+        <br>
+        <br>
+        <div>
+        <input  onclick="pop_up()" type= "button" value="Login">
+
+        </div>
+    </form>
+</main>
+</body>
+
+</html>
